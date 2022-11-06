@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <!-- 👇️ application title -->
+    <title>Makeup Box</title>
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="photon.min.css" />
+
+  </head>
+  <body class="body">
+    <!-- 👇️ navigation menu -->
+    <header>
+        <img src="https://i.ibb.co/mRrKXmD/logo-2.png" width="110" height="auto">
+        <nav><a href="main.html">Home</a>
+            <a href="index.html">Notes</a>
+            <a href="javascript:window.close();">Exit</a>
+        </nav>
+    </header>
+    <!-- 👇️ set wrap for css purpose -->
+    <section class="wrapper">
+        <div class="pro">
+            <h3>Search Product</h3> 
+            <main>
+            <!-- 👇️ form section for user input -->
+            <form method="post">
+                <input type="text" id="brand" placeholder="Brand (e.g. maybelline)"><br>
+                <input type="text" id="category" placeholder="Category (e.g. powder)"><br>
+                <input onclick="buttonSearch()" type="button" value="Search" id="search">
+            </form>
+            </main>
+            <!-- 👇️ display information -->
+            <h2 id="displaytit"></h2>
+            <p id="displayima"></p>
+            <p id="displaynam"></p>
+            <p id="displaytyp"></p>
+            <p id="displaycat"></p>
+            <p id="displayrat"></p>
+            <p id="displaydes"></p>
+            <p id="displaypri"></p>
+        </div>
+    </section>
+    <!-- 👇️ call makeup.javascript file -->
+    <script src="makeup.js">
+    </script>
+  </body>
+</html>

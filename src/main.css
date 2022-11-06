@@ -1,0 +1,124 @@
+* { /* 👇️ attribute for all */
+  font-family:'Times New Roman', Times, serif
+}
+body { /* 👇️ attribute for body (mostly for background visual) */
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: auto;
+  background-image: url("https://c0.wallpaperflare.com/path/835/84/849/flatlay-makeup-beauty-cosmetics-6eab25cbb6c90399808316dbe26bb9e7.jpg");
+}
+.body { /* 👇️ attribute for body (made class since wont apply using basic tag) */
+  background-color: rgb(190, 246, 185);
+}
+header { /* 👇️ attribute for navigation */
+    background-image: url("https://img.freepik.com/free-photo/white-simple-textured-design-background_53876-102423.jpg?w=1060&t=st=1667543533~exp=1667544133~hmac=785c9f052462e7fc386ae6d65c4f483f1b0795ed9a212fabefb4d9d322195cc9");
+    background-size: cover;
+    width: 100%;
+    padding-bottom: 0.5em;
+    text-align: right;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    box-shadow: 0px 0px 3px #9d9d9d;
+    padding-right: 1em;
+}
+header img { /* 👇️ attribute for application logo */
+    float: left;
+}
+header nav { /* 👇️ attribute for navigation's height from text to bottom */
+    padding-top: 0.7em;
+} 
+header a:link { /* 👇️ attribute for button */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+    padding-inline: 1em;
+    padding-block: 0.3em;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+header a:hover { /* 👇️ attribute for button once hovered by cursor */
+    box-shadow: 3px 3px 1px  rgb(0, 0, 0);
+    border: 0.1px solid rgb(174, 174, 174);
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+.wrapper { /* 👇️ attribute for sizing frame */
+  padding-block: 3em;
+}
+.pro { /* 👇️ attribute for center frame */
+  background-image: url("https://img.freepik.com/free-photo/white-simple-textured-design-background_53876-102423.jpg?w=1060&t=st=1667543533~exp=1667544133~hmac=785c9f052462e7fc386ae6d65c4f483f1b0795ed9a212fabefb4d9d322195cc9");
+  background-size: cover;
+  margin: auto;
+  text-align: center;
+  font-family: 'Karla';
+  background-color: rgb(255, 255, 255);
+  width: 50%;
+  height: auto;
+  border: 0px solid rgb(174, 174, 174);
+  transition: 0.2s ease;
+  padding-block: 1.5em;
+}
+.pro:hover { /* 👇️ attribute for center frame once hovered */
+  box-shadow: 0px 0px 10px  rgb(220, 248, 142);
+  cursor:default;
+}
+.pro #search { /* 👇️ attribute for search button */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 10px;
+  border: 0px solid rgba(255, 255, 255, 0);
+  background-color: rgba(255, 255, 255, 0);
+  padding: 5px 13px;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  transition: 0.2s ease;
+  font-size: 15px;
+}
+.pro #search:hover { /* 👇️ attribute for search button once hovered */
+  box-shadow: 3px 3px 1px  rgb(0, 0, 0);
+  border: 0.1px solid rgb(174, 174, 174);
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+.pro #brand,
+.pro #category { /* 👇️ attribute for input form */
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: 1px solid rgb(142, 228, 142);
+  padding-block: 0.3em;
+  padding-inline: 1em;
+  margin-bottom: 10px;
+  width: 70%;
+  transition: 0.2s ease;
+}
+.pro #brand:hover,
+.pro #category:hover { /* 👇️ attribute for input form once hovered */
+  box-shadow: 0px 0px 10px rgb(142, 228, 142);
+}
+p { /* 👇️ attribute for paragraph */
+  font-size: 17px;
+  text-align: justify;
+  padding-inline: 1.5em;
+  margin-block: 1em;
+  box-shadow: 0px 0px 20px rgba(174, 174, 174, 0.477);
+}
+#displayima { /* 👇️ attribute for centering product's image */
+  text-align: center;
+}
+::-webkit-scrollbar { /* 👇️ attribute for custom scrollbar */
+  width: 20px;
+}
+::-webkit-scrollbar-track { /* 👇️ attribute for scrollbar - track/background */
+  background-image: url("https://img.freepik.com/free-photo/white-simple-textured-design-background_53876-102423.jpg?w=1060&t=st=1667543533~exp=1667544133~hmac=785c9f052462e7fc386ae6d65c4f483f1b0795ed9a212fabefb4d9d322195cc9");
+}
+::-webkit-scrollbar-thumb { /* 👇️ attribute for scrollbar - thumb */
+  background-color: #dbc8ac;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+  transition: 0.2s ease;
+}
+::-webkit-scrollbar-thumb:hover { /* 👇️ attribute for scrollbar - thumb (hovered) */
+  background-color: #897b66;
+}

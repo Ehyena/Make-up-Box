@@ -1,0 +1,81 @@
+* { /* 👇️ attribute for all */
+  font-family:'Times New Roman', Times, serif
+}
+body { /* 👇️ attribute for body (mostly for background visual) */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  margin: auto;
+  padding: 202em;
+  background-image: url("https://c0.wallpaperflare.com/path/492/29/174/flatlay-makeup-beauty-cosmetics-9e1b153be6f9e3399023464b223b6907.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+header { /* 👇️ attribute for navigation */
+  background-image: url("https://img.freepik.com/free-photo/white-simple-textured-design-background_53876-102423.jpg?w=1060&t=st=1667543533~exp=1667544133~hmac=785c9f052462e7fc386ae6d65c4f483f1b0795ed9a212fabefb4d9d322195cc9");
+  background-size: cover;
+  width: 100%;
+  padding-bottom: 0.5em;
+  text-align: right;
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  box-shadow: 0px 0px 3px #9d9d9d;
+  padding-right: 1em;
+}
+header img { /* 👇️ attribute for application logo */
+  float: left;
+}
+header nav { /* 👇️ attribute for navigation's height from text to bottom */
+  padding-top: 0.7em;
+} 
+header a:link { /* 👇️ attribute for button */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  border-radius: 10px;
+  padding-inline: 1em;
+  padding-block: 0.3em;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+header a:hover { /* 👇️ attribute for button once hovered by cursor */
+  box-shadow: 3px 3px 1px  rgb(0, 0, 0);
+  border: 0.1px solid rgb(174, 174, 174);
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+.mainWrapper{ /* 👇️ attribute for ground positioning */
+  background-image: url("https://c0.wallpaperflare.com/path/620/253/146/brown-ceramic-tiles-3727d2649f8632513518a099551a6ccb.jpg");
+  background-size: cover;
+  margin-top: 5%;
+  padding-inline: 15em;
+  padding-bottom: 3em;
+  padding-top: 1em;
+  box-shadow: 0px 0px 20px rgb(124, 124, 124);
+  color: white;
+}
+.mainWrapper label { /* 👇️ attribute for label */
+  font-size: 20px;
+}
+.mainWrapper input,
+.mainWrapper textarea,
+.mainWrapper button { /* 👇️ attribute for input,textarea, and button */
+  font-size: 16px;
+  border: 1px solid rgb(142, 228, 142);
+  transition: 0.2s ease;
+  border-radius: 0px;
+  padding-inline: 1em;
+  padding-block: 0.3em;
+  color: black;
+}
+.mainWrapper input,
+.mainWrapper textarea { /* 👇️ attribute for input,textarea, only */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.mainWrapper input:hover,
+.mainWrapper textarea:hover,
+.mainWrapper button:hover { /* 👇️ attribute for input,textarea, and button */
+  box-shadow: 0px 0px 10px rgb(142, 228, 142);
+}
+.mainWrapper button:hover { /* 👇️ attribute for button only */
+  cursor: pointer;
+}
