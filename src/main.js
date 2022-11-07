@@ -20,7 +20,6 @@ btnCreate.addEventListener('click', function(){  // create text file when CREATE
     if(err){
       return console.log(err)
     }
-    var txtfile = document.getElementById("fileName").value
     alert(txtfile + " was submitted")    
     console.log("The file was created")
   })
