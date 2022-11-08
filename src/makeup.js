@@ -14,7 +14,11 @@ function buttonSearch() {
         location.reload()
         });
         // 👇️ display product found once searched
-        document.getElementById("displaytit").append("Product Found")
+        if (data[0] != null){
+            document.getElementById("displaytit").append("Product Found")
+        } else {
+            document.getElementById("displaytit").append("Product Unvailable")
+        }
         // 👇️ display image
         if (data[0].image_link != null){
             src = data[0].image_link
